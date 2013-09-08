@@ -1,16 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600');
-
 * {
-    /*border-radius: 0 !important;*/
-    -webkit-box-shadow: none !important;
+    /*-webkit-box-shadow: none !important;
     -ms-box-shadow: none !important;
     box-shadow: none !important;
     filter: progid:DXImageTransform.Microsoft.gradient(enabled = false) !important;
     -webkit-text-shadow: none !important;
     -ms-text-shadow: none !important;
-    text-shadow: none !important;
+    text-shadow: none !important;*/
     font-family: "Segoe UI", Arial, Helvetica, sans-serif;
-    font-weight: 400;
+    /*font-weight: 400;*/
 }
 
 input, .btn, .badge, .modal {
@@ -543,14 +540,6 @@ form {
     }
 
 
-/* Notification */
-
-.gritter-custom p {
-    font-size: 13px;
-    line-height: 18px;
-    color: #fff;
-}
-
 /* Sidebar */
 
 .sidebar {
@@ -827,120 +816,6 @@ form {
     display: block;
 }
 
-/* Bread crumb */
-
-.mainbar .bread-crumb {
-    font-size: 13px;
-    margin-top: 15px;
-    color: #aaa;
-    margin-left: 2px;
-}
-
-    .mainbar .bread-crumb i {
-        margin-right: 3px;
-        display: inline;
-        position: static;
-        top: 0;
-    }
-
-    .mainbar .bread-crumb .divider {
-        margin: 0 3px;
-    }
-
-    .mainbar .bread-crumb a {
-        color: #666;
-    }
-
-        .mainbar .bread-crumb a.bread-current {
-            color: #888;
-        }
-
-
-/* Notificationj Box*/
-
-.slide-box {
-    width: 270px;
-    z-index: 400;
-    position: fixed;
-    bottom: 0;
-    right: 5px;
-}
-
-    .slide-box .slide-box-head {
-        line-height: 42px;
-        height: 42px;
-        cursor: pointer;
-        font-size: 15px;
-        padding-left: 10px;
-    }
-
-        .slide-box .slide-box-head i {
-            margin-right: 10px;
-            font-size: 12px;
-        }
-
-    .slide-box .slide-content {
-        margin: 0;
-        padding: 0;
-        background: #000;
-        min-height: 300px;
-    }
-
-.slide-content .nav-tabs {
-    border-bottom: 1px solid #222 !important;
-    margin-bottom: 0 !important;
-}
-
-    .slide-content .nav-tabs > li > a {
-        background: #111 !important;
-        margin: 0 !important;
-        border: 1px solid #222 !important;
-        color: #888 !important;
-    }
-
-    .slide-content .nav-tabs > li.active > a {
-        color: #ccc !important;
-        background: #1c1c1c !important;
-    }
-
-.slide-content .tab-content {
-    padding: 10px;
-}
-
-.slide-content hr {
-    border-bottom: 1px solid #212121 !important;
-}
-
-
-/* Slidebox data */
-
-.slide-data {
-    background: #111;
-    border: 1px solid #222;
-    margin: 0;
-    margin-bottom: 10px;
-    padding: 5px;
-}
-
-    .slide-data .slide-data-text {
-        color: #fff;
-        font-weight: 600;
-        font-size: 13px;
-        float: left;
-        width: 60%;
-    }
-
-    .slide-data .slide-data-result {
-        color: #fff;
-        font-weight: 600;
-        font-size: 16px;
-        float: right;
-        width: 40%;
-    }
-
-        .slide-data .slide-data-result i {
-            font-size: 14px;
-        }
 
 /* Matter */
 
@@ -1096,68 +971,6 @@ form {
         margin-bottom: 10px;
     }
 
-/* Calendar */
-
-.fc-header-title h2 {
-    font-size: 15px;
-    line-height: 20px;
-}
-
-.fc-event-skin {
-    background-color: #ff5d5e;
-    border-color: #ff3839;
-}
-
-.fc-button-month, .fc-button-agendaWeek, .fc-button-agendaDay {
-    right: 20px;
-}
-
-.fc-state-default {
-    background: #eee !important;
-}
-
-    .fc-state-default:hover {
-        background: #ddd !important;
-    }
-
-.fc-widget-header {
-    padding: 7px 0 !important;
-    color: #666;
-    background: #eee;
-    border-color: #ccc;
-}
-
-.fc-content {
-    background: #fff;
-}
-
-    .fc-content td:hover {
-        background: #f3f3f3;
-    }
-
-/* Current status */
-
-.current-status {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-    .current-status .bold {
-        font-size: 13px;
-        margin-left: 8px;
-    }
-
-    .current-status li {
-        padding: 10px 0;
-    }
-
-/* Knob */
-
-.dial {
-    border: 0 !important;
-}
-
 /* Today datas */
 
 .today-datas {
@@ -1170,7 +983,7 @@ form {
         display: inline-block;
         margin-bottom: 5px;
         margin-right: 10px;
-        padding: 20px 15px;
+        padding: 1.5em 1em;
         background-color: #f8f8f8;
         background: #f8f8f8;
         border: 1px solid #ccc;
@@ -1203,98 +1016,6 @@ form {
             margin-right: 10px !important;
         }
 
-/* Profile */
-
-.profile {
-    margin-top: 15px;
-}
-
-/* Error */
-
-.error-page {
-    max-width: 500px;
-    margin: 50px auto;
-}
-
-.error h1 {
-    font-weight: normal;
-}
-
-/* Grid */
-
-.show-grid div {
-    background: #eee;
-    text-align: center;
-    margin: 10px 0;
-    border: 1px solid #ddd;
-}
-
-/* Slider */
-
-#eq span {
-    height: 120px;
-    float: left;
-    margin: 15px;
-}
-
-.ui-slider .ui-slider-handle {
-    position: absolute;
-    z-index: 2;
-    width: 0.9em;
-    height: 0.9em;
-    cursor: default;
-    background: #fafafa !important;
-    border: 1px solid #ccc !important;
-}
-
-.ui-slider-horizontal {
-    height: .5em;
-    border: 0 solid #eee !important;
-    background: #dfdfdf !important;
-}
-
-.ui-slider-vertical {
-    height: 100px;
-    width: 0.5em;
-    border: 0 solid #fff !important;
-    background: #dfdfdf !important;
-}
-
-#master1, #master2, #master3, #master4, #master5, #master6 {
-    width: 100%;
-    margin: 15px 0 !important;
-}
-
-.slider-red .ui-widget-header {
-    background: #dd514c !important;
-    border-color: #dd514c !important;
-}
-
-.slider-blue .ui-widget-header {
-    background: #36a5c6 !important;
-    border-color: #36a5c6 !important;
-}
-
-.slider-green .ui-widget-header {
-    background: #44c636 !important;
-    border-color: #44c636 !important;
-}
-
-.slider-yellow .ui-widget-header {
-    background: #fcd419 !important;
-    border-color: #fcd419 !important;
-}
-
-.slider-orange .ui-widget-header {
-    background: #fc9419 !important;
-    border-color: #fc9419 !important;
-}
-
-.slider-violet .ui-widget-header {
-    background: #9919fc !important;
-    border-color: #9919fc !important;
-}
-
 /* Toggle button */
 
 .toggle-button span {
@@ -1308,105 +1029,6 @@ form {
     margin: 5px;
 }
 
-/* Error log */
-
-.error-log {
-    height: 400px;
-    overflow: auto;
-}
-
-    .error-log ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
-
-        .error-log ul li {
-            padding: 10px 0;
-        }
-
-/* Media */
-
-.medias .checker {
-    width: 5px !important;
-}
-
-.medias img {
-    max-width: 40px;
-}
-
-/* CL Editor */
-
-.cleditorMain {
-    border: 1px solid #ccc;
-    margin: 10px 0;
-}
-
-    .cleditorMain textarea, .cleditorMain iframe {
-        width: 100% !important;
-    }
-
-/* Chart */
-
-#curve-chart, #live-chart, #pie-chart, #pie-chart2, #pie-chart3 {
-    height: 250px;
-    max-width: 100%;
-}
-
-#bar-chart {
-    height: 283px;
-    max-width: 100%;
-}
-
-#pie-chart, #pie-chart2, #pie-chart3 {
-    max-width: 300px;
-    margin: 10px auto;
-}
-
-/* Support page */
-
-#slist p {
-    display: none;
-    margin: 5px 0;
-    padding: 5px 10px !important;
-    background: #fff;
-    line-height: 25px;
-    border: 1px solid #eee;
-}
-
-#slist {
-    margin-left: 20px;
-}
-
-    #slist li {
-        margin-bottom: 10px;
-    }
-
-        #slist li a {
-            display: block;
-            margin-bottom: 0;
-        }
-
-.support-contact i {
-    margin-right: 3px;
-}
-
-/* Post form */
-
-.post {
-    margin-top: 20px;
-}
-
-/* Login and Register form */
-
-.admin-form {
-    max-width: 500px;
-    margin: 50px auto;
-}
-
-    .admin-form form {
-        padding: 10px 0;
-    }
 /* Responsive */
 
 @media (max-width: 480px) {
@@ -1428,10 +1050,6 @@ form {
     .col-right {
         width: 100%;
         float: none;
-    }
-
-    .fc-button-month, .fc-button-agendaWeek, .fc-button-agendaDay {
-        display: none;
     }
 }
 
@@ -1525,10 +1143,6 @@ form {
     .today-datas {
         text-align: center;
     }
-
-    .slide-box {
-        display: none;
-    }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
@@ -1603,8 +1217,6 @@ form {
         margin-left: 200px;
     }
 }
-
-
 
 /*#region Widgets */
 
