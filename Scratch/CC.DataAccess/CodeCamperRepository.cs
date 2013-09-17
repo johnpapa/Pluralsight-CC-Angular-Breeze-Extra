@@ -10,8 +10,8 @@ namespace CC.DataAccess
     /// </summary>
     public class CodeCamperRepository
     {
-        private readonly EFContextProvider<CodeCamperDbContext>
-            _contextProvider = new EFContextProvider<CodeCamperDbContext>();
+        private readonly Breeze.WebApi.EF.EFContextProvider<CodeCamperDbContext>
+            _contextProvider = new Breeze.WebApi.EF.EFContextProvider<CodeCamperDbContext>();
 
         private CodeCamperDbContext Context { get { return _contextProvider.Context; } }
 
