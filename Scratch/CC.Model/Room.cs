@@ -1,6 +1,6 @@
-﻿namespace CodeCamper
+﻿namespace CC.Model
 {
-    public class Track
+    public class Room
     {
         public int Id { get; set; }
         public string Name { get; set; }

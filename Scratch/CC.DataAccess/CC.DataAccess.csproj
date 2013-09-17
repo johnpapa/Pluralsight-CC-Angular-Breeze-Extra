@@ -36,10 +36,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>.\Breeze.WebApi.dll</HintPath>
     </Reference>
-    <Reference Include="Breeze.WebApi.EF">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>.\Breeze.WebApi.EF.dll</HintPath>
-    </Reference>
     <Reference Include="EntityFramework">
       <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -61,9 +57,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Breeze.WebApi.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Breeze.WebApi.EF.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

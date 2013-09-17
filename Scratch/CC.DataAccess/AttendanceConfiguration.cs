@@ -1,6 +1,7 @@
 ﻿using System.Data.Entity.ModelConfiguration;
+using CC.Model;
 
-namespace CodeCamper
+namespace CC.DataAccess
 {
     public class AttendanceConfiguration : EntityTypeConfiguration<Attendance>
     {

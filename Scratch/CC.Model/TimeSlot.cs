@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CodeCamper
+namespace CC.Model
 {
     public class TimeSlot
     {

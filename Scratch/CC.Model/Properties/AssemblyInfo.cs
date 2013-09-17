@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("CCJS.Model")]
+[assembly: AssemblyTitle("CC.Model")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("JohnPapa.net, LLC")]
-[assembly: AssemblyProduct("CCJS")]
+[assembly: AssemblyProduct("CC.Model")]
 [assembly: AssemblyCopyright("Copyright JohnPapa.net, LLC © 2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

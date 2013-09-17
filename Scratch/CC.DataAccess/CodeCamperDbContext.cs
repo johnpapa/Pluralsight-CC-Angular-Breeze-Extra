@@ -1,8 +1,9 @@
 ﻿using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 using System.Data.Entity.ModelConfiguration.Conventions;
+using CC.Model;
 
-namespace CodeCamper
+namespace CC.DataAccess
 {
     public class CodeCamperDbContext : DbContext 
     {

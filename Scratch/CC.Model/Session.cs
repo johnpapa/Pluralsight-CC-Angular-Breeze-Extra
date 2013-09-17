@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace CodeCamper
+namespace CC.Model
 {
     public class Session
     {

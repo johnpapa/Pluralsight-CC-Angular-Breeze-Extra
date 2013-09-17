@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using Breeze.WebApi;
-using Breeze.WebApi.EF;
 using Newtonsoft.Json.Linq;
+using CC.Model;
 
-namespace CodeCamper.DataAccess
+namespace CC.DataAccess
 {
     /// <summary>
     /// Repository (a "Unit of Work" really) of CodeCamper models.

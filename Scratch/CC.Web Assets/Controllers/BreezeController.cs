@@ -1,11 +1,11 @@
 using System.Linq;
 using System.Web.Http;
-using CodeCamper;
-using CodeCamper.DataAccess;
+using CC.Model;
+using CC.DataAccess;
 using Newtonsoft.Json.Linq;
 using Breeze.WebApi;
 
-namespace CCJS_Server.Controllers
+namespace CC.Web.Controllers
 {
     [BreezeController]
     public class BreezeController : ApiController
