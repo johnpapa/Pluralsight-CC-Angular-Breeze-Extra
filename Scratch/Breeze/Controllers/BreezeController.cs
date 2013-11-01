@@ -3,7 +3,8 @@ using System.Web.Http;
 using CC.Model;
 using CC.DataAccess;
 using Newtonsoft.Json.Linq;
-using Breeze.WebApi;
+using Breeze.ContextProvider;
+using Breeze.WebApi2;
 
 namespace CC.Web.Controllers
 {
