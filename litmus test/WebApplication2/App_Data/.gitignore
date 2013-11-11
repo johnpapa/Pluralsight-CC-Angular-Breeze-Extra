@@ -1,0 +1,6 @@
+# Ignore everything in this directory
+*
+*.sdf
+
+# Except this file
+!.gitignore
